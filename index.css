@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+    /* min-height: 100vh; */
+}
+
+/* 导航栏 */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+}
+
+header .logo {
+    position: absolute;
+    top: 5px;
+
+}
+
+header .logo a {
+    text-decoration: none;
+    font-family: Cooper;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    color: #8e44ad;
+}
+
+.nav {
+    position: absolute;
+    right: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+/* 轮播图 */
+section {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    top: 100px;
+}
+
+section #swiper {
+    background-color: skyblue;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+section .swiper {
+    /* position: relative; */
+    /* display: flex; */
+    width: 4000px;
+    /* overflow: hidden; */
+
+}
+
+section .swiper img {
+    width: 800px;
+    /* height: 100%; */
+}
